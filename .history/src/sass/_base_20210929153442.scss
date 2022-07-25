@@ -4,7 +4,6 @@ body, html {
   margin: 0;
   font-family: 'Roboto', sans-serif;
   scroll-behavior: smooth;
-  background-color: antiquewhite;
 }
 
 @mixin button($type) {
@@ -57,13 +56,13 @@ $appPadding: 1rem;
 
 .footer {
   background-color: #353535;
-
+  
   .container {
     display: flex;
     flex-direction: column;
     padding: $appPadding;
   }
-
+  
   &__logo {
     color: white;
     font-family: "Shrikhand", "cursive";
