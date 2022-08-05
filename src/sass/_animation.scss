@@ -12,7 +12,7 @@
     opacity: 0;
     z-index: -10;
   }
-} 
+}
 
 @keyframes jump {
   0% {
@@ -27,7 +27,4 @@
   100% {
     transform: translateY(0);
   }
-  // 0% {
-  //   transform: translateY(0);
-  // }
 }
