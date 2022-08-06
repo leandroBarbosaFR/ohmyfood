@@ -187,6 +187,12 @@ body, html {
 .tuto__title {
   margin-top: 0;
 }
+
+.tuto__step:hover {
+background-color: #f6F6F6;
+  box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
+}
+
 .tuto__steps {
   margin: 0;
   padding: 0;
@@ -201,7 +207,7 @@ body, html {
 .tuto__step {
   padding: 1.5rem;
   margin: 1rem 0 1rem 0.75rem;
-  box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.125);
+  box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
   border-radius: 1.25rem;
   background-color: #f6f6f6;
   display: flex;
